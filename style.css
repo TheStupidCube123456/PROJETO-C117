@@ -1,0 +1,39 @@
+
+body {
+    background-color: rgb(18, 18, 27);
+}
+
+h1, h2, h3, h4, h5, p, span {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(213, 230, 212);
+}
+
+.dButton {
+    width: 100%;
+    background-color: rgb(48, 48, 71);
+    font-family: 'Nunito', sans-serif;
+    color: rgb(197, 212, 196);
+}
+
+button.dButton:hover {
+    width: 100%;
+    background-color: rgb(141, 153, 138);
+    font-family: 'Nunito', sans-serif;
+    color: rgb(55, 53, 58);
+    transition: color 400ms ease-in;
+    transition: background-color 250ms ease-in;
+}
+
+#dTitle {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(222, 226, 222);
+    color: rgb(32, 32, 32);
+}
+
+#dName {
+    margin: 10px;
+}
+
+#dPrecision {
+    margin: 10px;
+}
